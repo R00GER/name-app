@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.icon,
+button,
+.header-logo {
+  cursor: pointer;
+}
+
+button {
+  background: none;
+  border: none;
+  color: #fff;
+}
+
+.link:hover {
+  background-color: #dd3b4b;
+}
+
+.delete-icon:hover {
+  color: black !important;
+}
+
+.names-container {
+  width: 80%;
+  margin: auto;
+}
+
+.names-amount {
+  padding: 1rem 0;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+}
+
+.add-new-message {
+  padding: 1rem 0;
+}
