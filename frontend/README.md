@@ -1,3 +1,3 @@
 ### Frontend
 
-Name application frontend
+Frontend for name application
